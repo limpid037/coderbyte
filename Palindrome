@@ -1,0 +1,14 @@
+def Palindrome(str)
+
+  str = str.downcase
+  
+  if str == str.reverse
+    return true
+  else
+    return false
+  end
+         
+end
+   
+ 
+Palindrome(STDIN.gets)  

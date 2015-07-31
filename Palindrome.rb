@@ -1,6 +1,6 @@
 def Palindrome(str)
 
-  str = str.downcase
+  str = str.downcase.delete(' ')
   
   if str == str.reverse
     return true
@@ -11,4 +11,4 @@ def Palindrome(str)
 end
    
  
-Palindrome(STDIN.gets)  
+Palindrome(STDIN.gets)   
